@@ -10,7 +10,7 @@ Description: The idea with this R package is to make "replacements" for the
     working instalation of [JAGS](http://mcmc-jags.sourceforge.net/). The
     package uses code, both modified and copied directly, from the BEST package
     (http://cran.r-project.org/web/packages/BEST/index.html) and from the stats
-    package part of base R.
+    package part of base R. DA removed rjags (>= 3-11) dependency re: error
 Version: 0.1
 Encoding: UTF-8
 Authors@R: c(person("Rasmus", "Bååth", role = c("aut", "cre"),
@@ -19,7 +19,6 @@ Authors@R: c(person("Rasmus", "Bååth", role = c("aut", "cre"),
     "ctb"))
 Depends:
     R (>= 3.0.1),
-    # rjags (>= 3-11),
     coda (>= 0.16-1)
 Imports:
     MASS (>= 7.3),
